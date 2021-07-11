@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Online Editor </title>
+    <link rel="stylesheet" href="main.css">
+    <script src="editor.js"></script>
+  </head>
+  <body onload="Init()">
+    <div id="header">
+      <h1> Online HTML5/CSS/JavaScript Editor </h1>
+    </div>
+    <div id="wrap">
+      <textarea id="editor" onkeyup="refresh()" ></textarea>
+      <iframe id="frame"></iframe>
+    </div>
+  </body>
+</html>

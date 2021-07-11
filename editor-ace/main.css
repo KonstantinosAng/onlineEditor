@@ -1,0 +1,37 @@
+html,body 
+{ 
+	margin:0; 
+	padding:0; 
+	height:100%; 
+	width:100%; 
+	overflow: hidden;
+}
+
+#editor
+{
+    height: 100%;
+    width: 50%;
+    display:inline-flex;
+}
+
+#container 
+{
+  height:100%;
+  width: 100%;
+  white-space : nowrap; 
+  overflow : hidden;
+  position: relative;
+}
+
+#iframe
+{
+  height: 100%;
+  display: inline-flex;
+  width: 50%;
+}
+
+/* disable tag matching */
+.ace_editor .ace_marker-layer .ace_bracket 
+{
+  display: none;
+}

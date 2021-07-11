@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Online Editor </title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.7/ace.js"></script>
+        <script src="https://rawgithub.com/ajaxorg/ace-builds/master/src/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<div id='container'>
+		  <div id="editor">
+		  </div>
+		  <iframe id='iframe' frameBorder="0">
+		  </iframe>
+		</div>
+		<script>
+		setupEditor();
+		update();
+		</script>
+	</body>
+</html>
