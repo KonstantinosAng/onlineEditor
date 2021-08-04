@@ -3,11 +3,11 @@
 Online editor created with [plain HTML/CSS/JS](vanillaJS) & with [editor ace plugin](editor-ace).
 
 <div align="center">
-  <h1><a href="http://kangelopoulos.ddns.net:8080/editor-ace"> DEMO EDITOR ACE </a></h1>
+  <h1><a href="https://constantine.dev:8080/editor-ace"> DEMO EDITOR ACE </a></h1>
 </div>
 
 <div align="center">
-  <h1><a href="http://kangelopoulos.ddns.net:8080/editor"> DEMO PLAIN EDITOR </a></h1>
+  <h1><a href="https://constantine.dev:8080/editor"> DEMO PLAIN EDITOR </a></h1>
 </div>
 
 ## USAGE
